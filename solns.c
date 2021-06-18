@@ -1,3 +1,8 @@
+
+#include <stdio.h>
+#include <assert.h>
+
+
 int max(int [], int);
 int min(int [], int);
 float average(int [], int);
