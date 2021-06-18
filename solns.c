@@ -5,14 +5,15 @@
 
 //MAX FUNCTION-----------------------------------------------------
 
+
 int max(int x[], int n){
   
   int max_num=x[0];
   
   for (int i =0; i<n;i++){
-    if(x[i+1]>max_num){
+    if(x[i]>max_num){
       
-      max_num=x[i+1];
+      max_num=x[i];
     }
     
   }   
