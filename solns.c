@@ -94,3 +94,28 @@ int mode(int x[], int n)
     
 
 }
+//factors function----------------------------
+
+
+int factors(int n, int f_array[]){
+  int k=0;
+  while(n%2==0){
+    k=k+1;
+    n=n/2;
+    f_array[k-1]=2;
+  }
+  
+  for(int i=3;i<=sqrt(n);i+i+2){
+    while {n%i==0){
+       k=k+1;
+       n=n/i;
+      f_array[k-1]=i;
+      }
+     }
+    
+    f_array[k]=n;
+    return k;
+}
+
+
+
