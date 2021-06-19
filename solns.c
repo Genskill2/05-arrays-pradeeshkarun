@@ -108,7 +108,7 @@ int factors(int n, int f_array[]){
   }
   
   for(int i=3;i<=sqrt(n);i+i+2){
-    while {n%i==0){
+    while (n%i==0){
        k=k+1;
        n=n/i;
       f_array[k-1]=i;
